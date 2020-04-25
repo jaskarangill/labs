@@ -1,5 +1,5 @@
 library(Biobase)
-library(GSE5859)
+library( GSE5859 )
 library(hgfocus.db) ##get the gene chromosome
 data(GSE5859)
 annot <- select(hgfocus.db, keys=featureNames(e), keytype="PROBEID",
